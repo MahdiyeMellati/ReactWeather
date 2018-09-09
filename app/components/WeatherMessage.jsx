@@ -12,7 +12,7 @@ var WeatherMessage=({temp,location})=>
 {
   //var {temp,location}=props;
     return(
-      <h6>it's {temp} in {location}</h6>
+      <h3 className="text-center">it's {temp} in {location}</h3>
     );
   };
 module.exports= WeatherMessage;
