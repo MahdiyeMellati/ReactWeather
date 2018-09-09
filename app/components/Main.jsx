@@ -18,8 +18,12 @@ var Nav= require('Nav');
     return (
       <div>
         <Nav/>
-        <h2>Main Component</h2>
-        {props.children}
+        <div className="row">
+          <div className="coulmn medium-6 large-4 small-centered">
+            {props.children}
+          </div>
+        </div>
+
       </div>
     );
   }
