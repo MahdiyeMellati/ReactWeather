@@ -6,7 +6,6 @@ var {Link,IndexLink}=require('react-router');
     onSearch: function(e)
 
     {
-          debugger;
       e.preventDefault();
       var location=this.refs.search.value;
       var encodedLocation=encodeURIComponent(location);
