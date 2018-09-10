@@ -12,7 +12,7 @@ var About =(props)=>
 {
   return(
 <div>
-  <h1 className="text-center">About Component</h1>
+  <h1 className="text-center page-title">About Component</h1>
   <p>This is my app</p>
   <p>here are some of the tools I used</p>
   <ul>

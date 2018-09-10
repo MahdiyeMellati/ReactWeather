@@ -17,7 +17,7 @@ render:function()
 {
   return(
     <form onSubmit={this.onFormSubmit}>
-    <input type="text" placeholder="Enter the city" ref="location"></input>
+    <input type="search" placeholder="Search Weather by city" ref="location"></input>
     <button className="button expanded hollow">Get Weather</button>
     </form>
   );
