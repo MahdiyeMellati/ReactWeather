@@ -3,7 +3,6 @@ var ErrorModal=React.createClass(
   {
   getDefaultProps: function()
   {
-    debugger;
     return{
       title: 'Error'
     };
@@ -21,7 +20,6 @@ var ErrorModal=React.createClass(
     render: function()
     {
       var {title,message}=this.props;
-      debugger;
       return(
         <div id= "error-modal" className="reveal tiny text-center" data-reveal="">
 
@@ -29,7 +27,7 @@ var ErrorModal=React.createClass(
           <p>{message}</p>
           <p>
             <button className="button hollow" data-close="">
-              okay
+              ok
             </button>
           </p>
         </div>
