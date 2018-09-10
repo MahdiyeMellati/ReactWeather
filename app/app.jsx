@@ -16,7 +16,7 @@ $(document).foundation();
 
 
 //App class
-require('style!css!applicationStyles');
+require('style!css!sass!applicationStyles');
 
 
 ReactDOM.render(
